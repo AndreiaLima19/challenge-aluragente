@@ -1,5 +1,12 @@
 # Challenge Alura Agente
 
+
+## 🚀 Aplicação
+
+👉 [Acesse a aplicação](https://challenge-aluragente.streamlit.app/)
+
+## 📋 Sobre o projeto
+
 O objetivo é desenvolver um agente de inteligência artificial que consiga responder a perguntas sobre o documento escolhido (PDF), buscando as informações e devolvendo-as de forma clara.
 
 A melhor arquitetura para um agente de IA é RAG (Retrieval-Augmented Generation), utilizando pdfplumber + Sentence Transformers + FAISS + um modelo gerativo da Hugging Face. É significativamente
