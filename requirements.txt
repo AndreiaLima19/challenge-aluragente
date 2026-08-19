@@ -1,4 +1,7 @@
 streamlit
-pandas
-plotly
 numpy
+pdfplumber
+sentence-transformers
+faiss-cpu
+transformers
+torch
