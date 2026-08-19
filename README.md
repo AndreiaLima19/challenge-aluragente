@@ -110,6 +110,11 @@ Após realizar o upload do arquivo, o sistema processa o conteúdo e utiliza bus
 
 ## 📄 Exemplo
 
+![Exemplo 1](Imagens/exemplo-1.png)
+
+![Exemplo 2](Imagens/exemplo-2.png)
+
+
 Documento: documento.pdf
 
 Pergunta:
