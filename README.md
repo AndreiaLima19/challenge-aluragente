@@ -23,7 +23,7 @@ Arquitetura do agente:
 
 O agente, neste exemplo, acessa o documento "Política de Atendimento, trocas, devoluções e privacidade.pdf" do Mercado Central 24h.
 
-🛠️ Ferramentas e tecnologias utilizadas
+## 🛠️ Ferramentas e tecnologias utilizadas
 
 Para o desenvolvimento deste projeto foram utilizadas diferentes ferramentas e bibliotecas para construção da aplicação, processamento dos documentos, geração de embeddings e implementação do modelo de inteligência artificial.
 
@@ -70,3 +70,86 @@ Utilizados para controle de versão, armazenamento do código-fonte e acompanham
 📌 Resumo
 
 A combinação dessas tecnologias permite implementar um fluxo de perguntas e respostas baseado em documentos, utilizando técnicas de processamento de linguagem natural, embeddings e busca vetorial para recuperar informações relevantes antes da geração das respostas.
+
+## 🖥️ Interface da aplicação
+
+
+![Interface da aplicação](imagens/interface.png)
+
+A aplicação possui uma interface desenvolvida com Streamlit, proporcionando uma experiência simples, intuitiva e interativa para o usuário.
+
+A interface permite realizar o upload de documentos em formato PDF e utilizar o conteúdo desses documentos como base para realizar perguntas e obter respostas.
+
+📄 Upload de documentos
+
+O usuário pode selecionar e enviar um arquivo PDF diretamente pela interface. Após o carregamento, o sistema realiza a leitura e o processamento do conteúdo do documento.
+
+💬 Interação com o documento
+
+Depois que o documento é processado, o usuário pode fazer perguntas relacionadas ao seu conteúdo. A aplicação utiliza técnicas de processamento de linguagem natural e busca semântica para localizar informações relevantes no documento.
+
+🤖 Geração de respostas
+
+As informações relevantes encontradas são utilizadas como contexto para o modelo de linguagem, que gera uma resposta relacionada à pergunta realizada pelo usuário.
+
+🔄 Fluxo da aplicação
+
+O funcionamento da interface segue um fluxo simples:
+
+Upload do PDF → Processamento do documento → Busca das informações relevantes → Geração da resposta → Exibição para o usuário
+
+O objetivo da interface é tornar a interação com documentos mais prática, permitindo que o usuário consulte seu conteúdo por meio de perguntas em linguagem natural, sem a necessidade de realizar buscas manuais no arquivo.
+
+## 💬 Exemplo de interação
+
+A aplicação permite que o usuário faça perguntas em linguagem natural sobre o conteúdo de um documento PDF enviado previamente.
+
+Após realizar o upload do arquivo, o sistema processa o conteúdo e utiliza busca semântica para identificar os trechos mais relevantes para responder à pergunta.
+
+
+
+## 📄 Exemplo
+
+Documento: documento.pdf
+
+Pergunta:
+
+Qual é o principal objetivo apresentado no documento?
+
+Resposta da aplicação:
+
+O principal objetivo apresentado no documento é utilizar os dados e informações disponíveis para apoiar a análise e auxiliar na tomada de decisões.
+
+🔎 Outros exemplos de perguntas
+
+O usuário também pode realizar perguntas como:
+
+Quais são os principais pontos abordados no documento?
+Qual é o objetivo do projeto apresentado?
+Quais problemas são identificados no documento?
+Quais soluções são propostas?
+Quais são as principais conclusões apresentadas?
+Quais informações são apresentadas sobre determinado tema?
+🤖 Fluxo de pergunta e resposta
+
+A interação acontece da seguinte maneira:
+
+1. Upload do documento
+O usuário envia um arquivo PDF pela interface.
+
+2. Processamento
+O sistema extrai e processa o texto presente no documento.
+
+3. Pergunta
+O usuário realiza uma pergunta relacionada ao conteúdo.
+
+4. Busca semântica
+A aplicação identifica os trechos do documento mais relevantes para a pergunta.
+
+5. Geração da resposta
+O modelo de linguagem utiliza essas informações como contexto e gera uma resposta.
+
+6. Exibição
+A resposta é apresentada diretamente na interface da aplicação.
+
+💡 Dica: para obter melhores resultados, recomenda-se fazer perguntas diretamente relacionadas ao conteúdo presente no documento enviado.
