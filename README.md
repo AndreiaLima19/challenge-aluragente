@@ -74,7 +74,7 @@ A combinação dessas tecnologias permite implementar um fluxo de perguntas e re
 ## 🖥️ Interface da aplicação
 
 
-![Interface da aplicação](imagens/interface.png)
+![Interface da aplicação](Imagens/interface.png)
 
 A aplicação possui uma interface desenvolvida com Streamlit, proporcionando uma experiência simples, intuitiva e interativa para o usuário.
 
