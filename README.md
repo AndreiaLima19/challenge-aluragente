@@ -108,33 +108,14 @@ Após realizar o upload do arquivo, o sistema processa o conteúdo e utiliza bus
 
 
 
-## 📄 Exemplo
+## 📄 Exemplos:
 
 ![Exemplo 1](Imagens/exemplo-1.png)
 
 ![Exemplo 2](Imagens/exemplo-2.png)
 
 
-Documento: documento.pdf
 
-Pergunta:
-
-Qual é o principal objetivo apresentado no documento?
-
-Resposta da aplicação:
-
-O principal objetivo apresentado no documento é utilizar os dados e informações disponíveis para apoiar a análise e auxiliar na tomada de decisões.
-
-🔎 Outros exemplos de perguntas
-
-O usuário também pode realizar perguntas como:
-
-Quais são os principais pontos abordados no documento?
-Qual é o objetivo do projeto apresentado?
-Quais problemas são identificados no documento?
-Quais soluções são propostas?
-Quais são as principais conclusões apresentadas?
-Quais informações são apresentadas sobre determinado tema?
 🤖 Fluxo de pergunta e resposta
 
 A interação acontece da seguinte maneira:
